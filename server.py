@@ -38,8 +38,8 @@ def submit_form():
 			return redirect('/thankyou.html')
 		except:
 			return "Something went wrong with database."
-    else:
-    	return "something went wrong!"
+	else:
+		return "something went wrong!"
 
 # @app.route('/about.html')
 # def about():
